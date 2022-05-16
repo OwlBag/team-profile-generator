@@ -4,6 +4,7 @@
   Command line application that takes information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person.
 
   ![license badge](https://img.shields.io/badge/license-The%20Unlicense-green)  
+  [Demonstration Video](https://youtu.be/4x05xR7b8BM)
 
   ## Table of Contents
 
