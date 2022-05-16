@@ -1,8 +1,8 @@
 const Intern = require('../lib/Intern.js');
 
 test('checks if inherited constructor is working properly', () => {
-    const intern = new Intern('testName', 0, 'test@test.com', 0);
+    const intern = new Intern('testName', 0, 'test@test.com', 'sampleSchool');
 
-    expect(intern.getInfo().name).toBe('testName');
-    expect(intern.getInfo().id).toEqual(expect.any(Number));
+    expect(intern.getSchool()).toBe('sampleSchool');
+    expect(intern.getRole()).toBe('Intern');
 })
